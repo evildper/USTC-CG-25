@@ -1,0 +1,6 @@
+get_filename_component(student_name ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+message(STATUS "[Student's Folder] " ${student_name})
+set(util_lib_target_name "util_lib")
+set(${student_name}_${util_lib_target_name}_AVAILABLE FALSE)
+add_subdirectory(utils)
+add_subdirectory(nodes)
