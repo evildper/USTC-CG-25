@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.28/Modules/FindDoxygen.cmake
+D:/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+E:/code/USTC-CG-25/09_孙浩然_Homework3_/Framework2D/third_party/glfw/docs/CMakeLists.txt

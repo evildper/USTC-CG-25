@@ -18,7 +18,7 @@ class TargetImageWidget : public ImageWidget
         kPaste = 1,
         kSeamless = 2,
         kMixing = 3
-    };
+    };//clone 方式
 
     explicit TargetImageWidget(
         const std::string& label,
@@ -26,24 +26,24 @@ class TargetImageWidget : public ImageWidget
     virtual ~TargetImageWidget() noexcept = default;
 
     void draw() override;
-    // Bind the source image component
+    // Bind the source image component 捆绑原图组件
     void set_source(std::shared_ptr<SourceImageWidget> source);
     // Enable real-time updating
     void set_realtime(bool flag);
-    // Restore the target image
+    // Restore the target image 恢复目标图像
     void restore();
     // HW3_TODO: Add more types of cloning, we have implemented the "Paste"
     // type, you can implement seamless cloning, mix-gradient cloning, etc.
     void set_paste();
     void set_seamless();
-    void set_mixing();
+    void set_mixing();//设置具体的类型
     // The clone function
     void clone();
 
    private:
     // Event handlers for mouse interactions.
     USTC_CG::SeamlessClone seamless_clone_;
-    USTC_CG::MixingClone mixing_clone_;
+    USTC_CG::MixingClone mixing_clone_;//设置两个算法类
     void mouse_click_event();
     void mouse_move_event();
     void mouse_release_event();

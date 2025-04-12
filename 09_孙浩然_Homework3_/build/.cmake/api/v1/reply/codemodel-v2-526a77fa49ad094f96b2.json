@@ -1,0 +1,1756 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-third_party-Debug-a2e0515af5b7021cdaa7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party",
+					"targetIndexes" : 
+					[
+						14,
+						16
+					]
+				},
+				{
+					"build" : "third_party/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-third_party.glfw-Debug-897d190e8845e0568fcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "third_party/glfw/src",
+					"jsonFile" : "directory-third_party.glfw.src-Debug-e43329f9a754c0ffb639.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw/src",
+					"targetIndexes" : 
+					[
+						15,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-Debug-1d412c5c23197603dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"build" : "src/demo",
+					"jsonFile" : "directory-src.demo-Debug-7c0cb1063833183dc59c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "src/demo",
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "src/assignments",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.assignments-Debug-e16adb8444ad368e4073.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/assignments"
+				},
+				{
+					"build" : "src/assignments/1_MiniDraw",
+					"jsonFile" : "directory-src.assignments.1_MiniDraw-Debug-ae01ce73c950e80aa7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "src/assignments/1_MiniDraw",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "src/assignments/2_ImageWarping",
+					"jsonFile" : "directory-src.assignments.2_ImageWarping-Debug-4d5a1554e6bb13107268.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "src/assignments/2_ImageWarping",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "src/assignments/3_PoissonImageEditing",
+					"jsonFile" : "directory-src.assignments.3_PoissonImageEditing-Debug-b28df89948e99e42096a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "src/assignments/3_PoissonImageEditing",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					],
+					"name" : "USTC_CG_2025_Framework2D",
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "demo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "1_MiniDraw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "2_ImageWarping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "3_PoissonImageEditing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "1_MiniDraw::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-1_MiniDraw-Debug-4951e9008bcf91fcffc9.json",
+					"name" : "1_MiniDraw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "2_ImageWarping::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-2_ImageWarping-Debug-7b1e0ef0242afbb4280d.json",
+					"name" : "2_ImageWarping",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "3_PoissonImageEditing::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-3_PoissonImageEditing-Debug-15683821a594078fd54a.json",
+					"name" : "3_PoissonImageEditing",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-09a2c8e0daed7de1ca8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@174ad505b4e557f742c8",
+					"jsonFile" : "target-ALL_BUILD-Debug-5d3f6826db177c7659d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-ALL_BUILD-Debug-f68b86f67ccffcd81ddf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-ALL_BUILD-Debug-f309df2e81267b65c225.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-ALL_BUILD-Debug-32bf30fb8e3809347ed3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-ALL_BUILD-Debug-6e001dcb8c3a46e95266.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-ALL_BUILD-Debug-7abdfe5871258f41e6fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-c2a09ce0d185a2351851.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Debug-d69b95136cf5bfa1b2fa.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo-Debug-2074614b9e1f18410ed9.json",
+					"name" : "demo",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo_hello_world::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo_hello_world-Debug-b266b89aa75815cb5e8b.json",
+					"name" : "demo_hello_world",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@037116246cbfaaeb5504",
+					"jsonFile" : "target-glad-Debug-8630bb2b7bad1ae59846.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-glfw-Debug-fae25335208e46b67f92.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@037116246cbfaaeb5504",
+					"jsonFile" : "target-imgui-Debug-f29968b7a2ad24ce3696.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-update_mappings-Debug-e6aeb724013d11f7fb49.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-third_party-Release-a2e0515af5b7021cdaa7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party",
+					"targetIndexes" : 
+					[
+						14,
+						16
+					]
+				},
+				{
+					"build" : "third_party/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-third_party.glfw-Release-897d190e8845e0568fcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "third_party/glfw/src",
+					"jsonFile" : "directory-third_party.glfw.src-Release-e43329f9a754c0ffb639.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw/src",
+					"targetIndexes" : 
+					[
+						15,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-src-Release-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-Release-1d412c5c23197603dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"build" : "src/demo",
+					"jsonFile" : "directory-src.demo-Release-7c0cb1063833183dc59c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "src/demo",
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "src/assignments",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.assignments-Release-e16adb8444ad368e4073.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/assignments"
+				},
+				{
+					"build" : "src/assignments/1_MiniDraw",
+					"jsonFile" : "directory-src.assignments.1_MiniDraw-Release-ae01ce73c950e80aa7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "src/assignments/1_MiniDraw",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "src/assignments/2_ImageWarping",
+					"jsonFile" : "directory-src.assignments.2_ImageWarping-Release-4d5a1554e6bb13107268.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "src/assignments/2_ImageWarping",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "src/assignments/3_PoissonImageEditing",
+					"jsonFile" : "directory-src.assignments.3_PoissonImageEditing-Release-b28df89948e99e42096a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "src/assignments/3_PoissonImageEditing",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					],
+					"name" : "USTC_CG_2025_Framework2D",
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "demo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "1_MiniDraw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "2_ImageWarping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "3_PoissonImageEditing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "1_MiniDraw::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-1_MiniDraw-Release-a6e78ef37e450e8ab58f.json",
+					"name" : "1_MiniDraw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "2_ImageWarping::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-2_ImageWarping-Release-83ffdb72de85255411fc.json",
+					"name" : "2_ImageWarping",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "3_PoissonImageEditing::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-3_PoissonImageEditing-Release-cda258dbb086eaaa31cd.json",
+					"name" : "3_PoissonImageEditing",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-09a2c8e0daed7de1ca8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@174ad505b4e557f742c8",
+					"jsonFile" : "target-ALL_BUILD-Release-5d3f6826db177c7659d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-ALL_BUILD-Release-f68b86f67ccffcd81ddf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-ALL_BUILD-Release-f309df2e81267b65c225.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-ALL_BUILD-Release-32bf30fb8e3809347ed3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-ALL_BUILD-Release-6e001dcb8c3a46e95266.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-ALL_BUILD-Release-7abdfe5871258f41e6fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-c2a09ce0d185a2351851.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Release-e7f0335983e91d5f2807.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo-Release-74818f98d33cf3e08f89.json",
+					"name" : "demo",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo_hello_world::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo_hello_world-Release-c45c8dcab850fc8fab04.json",
+					"name" : "demo_hello_world",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@037116246cbfaaeb5504",
+					"jsonFile" : "target-glad-Release-efde15ab2988cb2f0e41.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-glfw-Release-db5b015cb6b43941ad61.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@037116246cbfaaeb5504",
+					"jsonFile" : "target-imgui-Release-20de2cbe785771716a6e.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-update_mappings-Release-e6aeb724013d11f7fb49.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-third_party-MinSizeRel-a2e0515af5b7021cdaa7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party",
+					"targetIndexes" : 
+					[
+						14,
+						16
+					]
+				},
+				{
+					"build" : "third_party/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-third_party.glfw-MinSizeRel-897d190e8845e0568fcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "third_party/glfw/src",
+					"jsonFile" : "directory-third_party.glfw.src-MinSizeRel-e43329f9a754c0ffb639.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw/src",
+					"targetIndexes" : 
+					[
+						15,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-src-MinSizeRel-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-MinSizeRel-1d412c5c23197603dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"build" : "src/demo",
+					"jsonFile" : "directory-src.demo-MinSizeRel-7c0cb1063833183dc59c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "src/demo",
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "src/assignments",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.assignments-MinSizeRel-e16adb8444ad368e4073.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/assignments"
+				},
+				{
+					"build" : "src/assignments/1_MiniDraw",
+					"jsonFile" : "directory-src.assignments.1_MiniDraw-MinSizeRel-ae01ce73c950e80aa7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "src/assignments/1_MiniDraw",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "src/assignments/2_ImageWarping",
+					"jsonFile" : "directory-src.assignments.2_ImageWarping-MinSizeRel-4d5a1554e6bb13107268.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "src/assignments/2_ImageWarping",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "src/assignments/3_PoissonImageEditing",
+					"jsonFile" : "directory-src.assignments.3_PoissonImageEditing-MinSizeRel-b28df89948e99e42096a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "src/assignments/3_PoissonImageEditing",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					],
+					"name" : "USTC_CG_2025_Framework2D",
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "demo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "1_MiniDraw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "2_ImageWarping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "3_PoissonImageEditing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "1_MiniDraw::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-1_MiniDraw-MinSizeRel-97ae76fda5c5517bb8a0.json",
+					"name" : "1_MiniDraw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "2_ImageWarping::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-2_ImageWarping-MinSizeRel-5be1f38f9d47a23a54ce.json",
+					"name" : "2_ImageWarping",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "3_PoissonImageEditing::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-3_PoissonImageEditing-MinSizeRel-a9d65bfa9542d7858f6f.json",
+					"name" : "3_PoissonImageEditing",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-09a2c8e0daed7de1ca8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@174ad505b4e557f742c8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-5d3f6826db177c7659d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f68b86f67ccffcd81ddf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f309df2e81267b65c225.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-32bf30fb8e3809347ed3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6e001dcb8c3a46e95266.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7abdfe5871258f41e6fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-c2a09ce0d185a2351851.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-MinSizeRel-ac4139992fea694a0087.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo-MinSizeRel-48c5216fe4aed4045c1a.json",
+					"name" : "demo",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo_hello_world::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo_hello_world-MinSizeRel-79c5a2d78decfb657486.json",
+					"name" : "demo_hello_world",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@037116246cbfaaeb5504",
+					"jsonFile" : "target-glad-MinSizeRel-f54e94673fac0a12d722.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-glfw-MinSizeRel-acfdf854682a728ec662.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@037116246cbfaaeb5504",
+					"jsonFile" : "target-imgui-MinSizeRel-3bc1e0b38832bb8485be.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-update_mappings-MinSizeRel-e6aeb724013d11f7fb49.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-third_party-RelWithDebInfo-a2e0515af5b7021cdaa7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party",
+					"targetIndexes" : 
+					[
+						14,
+						16
+					]
+				},
+				{
+					"build" : "third_party/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-third_party.glfw-RelWithDebInfo-897d190e8845e0568fcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "third_party/glfw/src",
+					"jsonFile" : "directory-third_party.glfw.src-RelWithDebInfo-e43329f9a754c0ffb639.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "third_party/glfw/src",
+					"targetIndexes" : 
+					[
+						15,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-src-RelWithDebInfo-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-RelWithDebInfo-1d412c5c23197603dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"build" : "src/demo",
+					"jsonFile" : "directory-src.demo-RelWithDebInfo-7c0cb1063833183dc59c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "src/demo",
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "src/assignments",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.assignments-RelWithDebInfo-e16adb8444ad368e4073.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/assignments"
+				},
+				{
+					"build" : "src/assignments/1_MiniDraw",
+					"jsonFile" : "directory-src.assignments.1_MiniDraw-RelWithDebInfo-ae01ce73c950e80aa7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "src/assignments/1_MiniDraw",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "src/assignments/2_ImageWarping",
+					"jsonFile" : "directory-src.assignments.2_ImageWarping-RelWithDebInfo-4d5a1554e6bb13107268.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "src/assignments/2_ImageWarping",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "src/assignments/3_PoissonImageEditing",
+					"jsonFile" : "directory-src.assignments.3_PoissonImageEditing-RelWithDebInfo-b28df89948e99e42096a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "src/assignments/3_PoissonImageEditing",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					],
+					"name" : "USTC_CG_2025_Framework2D",
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "demo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "1_MiniDraw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "2_ImageWarping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "3_PoissonImageEditing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "1_MiniDraw::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-1_MiniDraw-RelWithDebInfo-eb1157a4b283ebace9dc.json",
+					"name" : "1_MiniDraw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "2_ImageWarping::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-2_ImageWarping-RelWithDebInfo-389ce223850bbd97cebf.json",
+					"name" : "2_ImageWarping",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "3_PoissonImageEditing::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-3_PoissonImageEditing-RelWithDebInfo-286190eb0b0496a9a9d9.json",
+					"name" : "3_PoissonImageEditing",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-09a2c8e0daed7de1ca8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@174ad505b4e557f742c8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-5d3f6826db177c7659d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f68b86f67ccffcd81ddf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f309df2e81267b65c225.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@10beab6fd1a95d9a419f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-32bf30fb8e3809347ed3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@48eadfc75e486a8653bc",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6e001dcb8c3a46e95266.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@a5798f3f91bd9cc12106",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7abdfe5871258f41e6fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-c2a09ce0d185a2351851.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-RelWithDebInfo-f75fffcc5d82b00cc124.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo-RelWithDebInfo-e1f46e356a0f2e0b38c6.json",
+					"name" : "demo",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo_hello_world::@eb1d05fbb49e932f3508",
+					"jsonFile" : "target-demo_hello_world-RelWithDebInfo-2879c6f6ec6a29040e95.json",
+					"name" : "demo_hello_world",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@037116246cbfaaeb5504",
+					"jsonFile" : "target-glad-RelWithDebInfo-07e0ba35ee3c3d58fb1d.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-glfw-RelWithDebInfo-6f85068a1316089acb50.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@037116246cbfaaeb5504",
+					"jsonFile" : "target-imgui-RelWithDebInfo-5e9721268a3cbf81ecc2.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-update_mappings-RelWithDebInfo-e6aeb724013d11f7fb49.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build",
+		"source" : "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/Framework2D"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

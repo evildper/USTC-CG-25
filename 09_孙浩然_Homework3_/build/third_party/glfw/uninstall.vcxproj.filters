@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\build\CMakeFiles\e5070ae2fa6cf42be70ce66fa7587175\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\third_party\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\build\third_party\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D6031E86-DC6A-3197-B657-82A558FE1577}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

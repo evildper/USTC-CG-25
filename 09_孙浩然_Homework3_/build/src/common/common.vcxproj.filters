@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\src\common\image_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\src\common\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\include\common\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\include\common\image_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\include\common\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\include\common\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\USTC-CG-25\09_孙浩然_Homework3_\Framework2D\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{91B0E1A5-2726-3EFC-8F65-356068B0748C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FAB1B501-A428-3152-85BD-2370E64057AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

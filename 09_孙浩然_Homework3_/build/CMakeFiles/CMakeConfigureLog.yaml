@@ -1,0 +1,407 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+      生成启动时间为 2025/3/16 12:39:29。
+      
+      节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.28
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/3.28.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+      生成启动时间为 2025/3/16 12:39:30。
+      
+      节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.74
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/3.28.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-cbe5e2"
+      binary: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-cbe5e2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-cbe5e2'
+        
+        Run Build Command(s): D:/app/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f219a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+        生成启动时间为 2025/3/16 12:39:31。
+        
+        节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbe5e2\\cmTC_f219a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f219a.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbe5e2\\Debug\\”。
+          正在创建目录“cmTC_f219a.dir\\Debug\\cmTC_f219a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f219a.dir\\Debug\\cmTC_f219a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_f219a.dir\\Debug\\cmTC_f219a.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f219a.dir\\Debug\\\\" /Fd"cmTC_f219a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f219a.dir\\Debug\\\\" /Fd"cmTC_f219a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbe5e2\\Debug\\cmTC_f219a.exe" /INCREMENTAL /ILK:"cmTC_f219a.dir\\Debug\\cmTC_f219a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-cbe5e2/Debug/cmTC_f219a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-cbe5e2/Debug/cmTC_f219a.lib" /MACHINE:X64  /machine:x64 cmTC_f219a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f219a.vcxproj -> E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbe5e2\\Debug\\cmTC_f219a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f219a.dir\\Debug\\cmTC_f219a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f219a.dir\\Debug\\cmTC_f219a.tlog\\cmTC_f219a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbe5e2\\cmTC_f219a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-egb8qy"
+      binary: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-egb8qy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-egb8qy'
+        
+        Run Build Command(s): D:/app/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_72482.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+        生成启动时间为 2025/3/16 12:39:32。
+        
+        节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egb8qy\\cmTC_72482.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_72482.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egb8qy\\Debug\\”。
+          正在创建目录“cmTC_72482.dir\\Debug\\cmTC_72482.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_72482.dir\\Debug\\cmTC_72482.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_72482.dir\\Debug\\cmTC_72482.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_72482.dir\\Debug\\\\" /Fd"cmTC_72482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_72482.dir\\Debug\\\\" /Fd"cmTC_72482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egb8qy\\Debug\\cmTC_72482.exe" /INCREMENTAL /ILK:"cmTC_72482.dir\\Debug\\cmTC_72482.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-egb8qy/Debug/cmTC_72482.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-egb8qy/Debug/cmTC_72482.lib" /MACHINE:X64  /machine:x64 cmTC_72482.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_72482.vcxproj -> E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egb8qy\\Debug\\cmTC_72482.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_72482.dir\\Debug\\cmTC_72482.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_72482.dir\\Debug\\cmTC_72482.tlog\\cmTC_72482.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egb8qy\\cmTC_72482.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.78
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "third_party/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-xhv21o"
+      binary: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-xhv21o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/Framework2D/third_party/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-xhv21o'
+        
+        Run Build Command(s): D:/app/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_af949.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+        生成启动时间为 2025/3/16 12:39:33。
+        
+        节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\cmTC_af949.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_af949.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\Debug\\”。
+          正在创建目录“cmTC_af949.dir\\Debug\\cmTC_af949.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_af949.dir\\Debug\\cmTC_af949.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_af949.dir\\Debug\\cmTC_af949.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af949.dir\\Debug\\\\" /Fd"cmTC_af949.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af949.dir\\Debug\\\\" /Fd"cmTC_af949.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\src.c"
+          src.c
+        E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\src.c(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\cmTC_af949.vcxproj]
+        已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\cmTC_af949.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\cmTC_af949.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\src.c(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xhv21o\\cmTC_af949.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "third_party/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-y63s4q"
+      binary: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-y63s4q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/Framework2D/third_party/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-y63s4q'
+        
+        Run Build Command(s): D:/app/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb3a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+        生成启动时间为 2025/3/16 12:39:34。
+        
+        节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\cmTC_fb3a8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_fb3a8.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\Debug\\”。
+          正在创建目录“cmTC_fb3a8.dir\\Debug\\cmTC_fb3a8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_fb3a8.dir\\Debug\\cmTC_fb3a8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_fb3a8.dir\\Debug\\cmTC_fb3a8.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb3a8.dir\\Debug\\\\" /Fd"cmTC_fb3a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb3a8.dir\\Debug\\\\" /Fd"cmTC_fb3a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\Debug\\cmTC_fb3a8.exe" /INCREMENTAL /ILK:"cmTC_fb3a8.dir\\Debug\\cmTC_fb3a8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-y63s4q/Debug/cmTC_fb3a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-y63s4q/Debug/cmTC_fb3a8.lib" /MACHINE:X64  /machine:x64 cmTC_fb3a8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\cmTC_fb3a8.vcxproj]
+        已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\cmTC_fb3a8.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\cmTC_fb3a8.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y63s4q\\cmTC_fb3a8.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "third_party/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-r2iwdr"
+      binary: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-r2iwdr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/code/USTC-CG-25/09_\u5b59\u6d69\u7136_Homework3_/Framework2D/third_party/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-r2iwdr'
+        
+        Run Build Command(s): D:/app/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_db58b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.12.12+1cce77968
+        生成启动时间为 2025/3/16 12:39:35。
+        
+        节点 1 上的项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\cmTC_db58b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_db58b.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\Debug\\”。
+          正在创建目录“cmTC_db58b.dir\\Debug\\cmTC_db58b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_db58b.dir\\Debug\\cmTC_db58b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_db58b.dir\\Debug\\cmTC_db58b.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db58b.dir\\Debug\\\\" /Fd"cmTC_db58b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db58b.dir\\Debug\\\\" /Fd"cmTC_db58b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\app\\vs2022\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\Debug\\cmTC_db58b.exe" /INCREMENTAL /ILK:"cmTC_db58b.dir\\Debug\\cmTC_db58b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-r2iwdr/Debug/cmTC_db58b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/code/USTC-CG-25/09_孙浩然_Homework3_/build/CMakeFiles/CMakeScratch/TryCompile-r2iwdr/Debug/cmTC_db58b.lib" /MACHINE:X64  /machine:x64 cmTC_db58b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\cmTC_db58b.vcxproj]
+        已完成生成项目“E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\cmTC_db58b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\cmTC_db58b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\code\\USTC-CG-25\\09_孙浩然_Homework3_\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r2iwdr\\cmTC_db58b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.58
+        
+      exitCode: 1
+...

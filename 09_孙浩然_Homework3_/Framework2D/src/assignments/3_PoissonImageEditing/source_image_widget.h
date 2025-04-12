@@ -6,7 +6,7 @@
 
 namespace USTC_CG
 {
-class SourceImageWidget : public ImageWidget
+class SourceImageWidget : public ImageWidget//widget组件，添加imgui操控。
 {
    public:
     // HW3_TODO(optional): Add more region shapes like polygon and freehand.
@@ -26,7 +26,7 @@ class SourceImageWidget : public ImageWidget
 
     // Region selecting interaction
     void enable_selecting(bool flag);
-    void select_region();
+    void select_region();//画出选择的区域。注意要再其中添加右键的使用，作用于作业一中多边形的绘制相同。
     // Get the selected region in the source image, this would be a binary mask.
     // The **size** of the mask should be the same as the source image.
     // The **value** of the mask should be 0 or 255: 0 for the background and
@@ -37,7 +37,7 @@ class SourceImageWidget : public ImageWidget
     // Get the position to locate the region in the target image.
     // We return the start point of the selected region as default.
     ImVec2 get_position() const;
-    void set_region_type(int a);
+    void set_region_type(int a);//多边形和矩形是同样的算法。
 
 
    private:

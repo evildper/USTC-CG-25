@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/code/USTC-CG-25/09_孙浩然_Homework3_/Framework2D/src/assignments/2_ImageWarping/CMakeLists.txt
+E:/code/lib/cmake/dlib/dlib-debug.cmake
+E:/code/lib/cmake/dlib/dlib.cmake
+E:/code/lib/cmake/dlib/dlibConfig.cmake
+E:/code/lib/cmake/dlib/dlibConfigVersion.cmake

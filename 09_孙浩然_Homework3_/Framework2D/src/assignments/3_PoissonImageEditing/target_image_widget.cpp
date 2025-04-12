@@ -45,7 +45,7 @@ void TargetImageWidget::draw()
 
 void TargetImageWidget::set_source(std::shared_ptr<SourceImageWidget> source)
 {
-    source_image_ = source;
+    source_image_ = source;//bind source imagewidget
 }
 
 void TargetImageWidget::set_realtime(bool flag)
@@ -55,7 +55,7 @@ void TargetImageWidget::set_realtime(bool flag)
 
 void TargetImageWidget::restore()
 {
-    *data_ = *back_up_;
+    *data_ = *back_up_;//data is the image class
     update();
 }
 
@@ -91,7 +91,7 @@ void TargetImageWidget::clone()
     // The **size** of the mask should be the same as the source image.
     // The **value** of the mask should be 0 or 255: 0 for the background and
     // 255 for the selected region.
-    std::shared_ptr<Image> mask = source_image_->get_region_mask();
+    std::shared_ptr<Image> mask = source_image_->get_region_mask();//加上掩码
     
 
     switch (clone_type_)
@@ -112,7 +112,7 @@ void TargetImageWidget::clone()
                         static_cast<int>(mouse_position_.y) + y -
                         static_cast<int>(source_image_->get_position().y);
                     if (0 <= tar_x && tar_x < image_width_ && 0 <= tar_y &&
-                        tar_y < image_height_ && mask->get_pixel(x, y)[0] > 0)
+                        tar_y < image_height_ && mask->get_pixel(x, y)[0] > 0)//保证了只粘贴掩码区域。
                     {
                         data_->set_pixel(
                             tar_x,
@@ -160,14 +160,17 @@ void TargetImageWidget::clone()
             //     static_cast<int>(mouse_position_.x) - static_cast<int>(source_image_->get_position().x) + p.first,
             //     static_cast<int>(mouse_position_.y) - static_cast<int>(source_image_->get_position().y) + p.second
             // );
-            seamless_clone_.set_images(source_image_->get_data(), data_, mask);
+            seamless_clone_.set_images(source_image_->get_data(), data_, mask);//把图像数据进入算法类
             seamless_clone_.set_right_to_mouse(static_cast<int>(mouse_position_.x-source_image_->get_position().x),static_cast<int>(mouse_position_.y-source_image_->get_position().y));
+            //注意这里导入的是原图像左上角和目标图像坐标点击处的距离，掩码中的距离还要加上p.first和p.second.
             if(!seamless_clone_.judge_A_precomputed()){
                 seamless_clone_.precompute_A();
             }
+            //判断条件使得矩阵只预分解一次。
             //seamless_clone_.precompute_A();
             
-            std::shared_ptr<Image> result = seamless_clone_.solve();
+            std::shared_ptr<Image> result = seamless_clone_.solve();//因为传入进去的是指针，所以目标图像在算法类中已经被修改。
+            //mixing类同理操作。
             //source_image_->get_data() is the source image, data_ is the target image, mask is the mask of the source image
             //source is not a image class so it must use the get data founction to get the image data.
             //source_image_ is a address

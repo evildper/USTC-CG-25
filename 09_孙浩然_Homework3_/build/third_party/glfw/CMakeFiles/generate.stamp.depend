@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+D:/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+D:/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+D:/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+D:/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+E:/code/USTC-CG-25/09_孙浩然_Homework3_/Framework2D/third_party/glfw/CMake/glfw3Config.cmake.in
+E:/code/USTC-CG-25/09_孙浩然_Homework3_/Framework2D/third_party/glfw/CMakeLists.txt
