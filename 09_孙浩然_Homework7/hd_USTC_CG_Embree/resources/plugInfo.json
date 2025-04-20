@@ -1,0 +1,22 @@
+{
+  "Plugins": [
+    {
+      "Info": {
+        "Types": {
+          "Hd_USTC_CG_Embree_RendererPlugin": {
+            "bases": [
+              "HdRendererPlugin"
+            ],
+            "displayName": "USTC_CG Renderer Embree",
+            "priority": 2
+          }
+        }
+      },
+      "LibraryPath": "../../hd_USTC_CG_Embree.dll",
+      "Name": "USTC_CG Renderer Embree",
+      "ResourcePath": "resources",
+      "Root": "..",
+      "Type": "library"
+    }
+  ]
+}
